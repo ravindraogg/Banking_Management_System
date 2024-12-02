@@ -1,0 +1,176 @@
+/* Full-Page Stylish Register Page with Heading */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+  gap: 50px; /* Space between portal-heading and form */
+}
+
+.portal-heading {
+  max-width: 400px;
+  text-align: center;
+}
+
+.portal-heading h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.portal-heading p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+.create-account {
+  max-width: 550px;
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.create-account h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0984e3;
+  border-bottom: 2px solid #0984e3;
+  display: inline-block;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.create-account form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.create-account .input-container {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+  display: block;
+}
+
+.create-account label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+  display: block;
+}
+
+
+
+
+.create-account .input-container input {
+  width: 100%; /* Ensures all inputs take up the full width of the parent container */
+  padding: 15px; /* Consistent padding for all inputs */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  box-sizing: border-box; /* Includes padding and border in the total width/height */
+  transition: border 0.3s ease;
+}
+
+.create-account .input-container input:focus {
+  border-color: #0984e3;
+  outline: none;
+}
+
+.create-account .input-container {
+  margin-bottom: 20px; /* Equal spacing between all inputs */
+}
+
+
+
+.create-account input[type="text"],
+.create-account input[type="email"],
+.create-account input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+}
+
+.create-account input:focus {
+  border-color: #0984e3;
+  outline: none;
+}
+
+.create-account button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4caf50, #2ecc71);
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.create-account button:hover {
+  background: linear-gradient(135deg, #3e8e41, #27ae60);
+  transform: translateY(-3px);
+}
+
+.create-account p {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.create-account p a {
+  color: #0984e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.create-account p a:hover {
+  text-decoration: underline;
+}
+
+/* Adjust gaps and uniform input sizes */
+.create-account .input-container input {
+  width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+
+    /* Additional styling for consistent appearance */
+    height: 40px; /* Set a fixed height for all inputs */
+}
+
+.create-account .input-container:not(:last-child) {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,104 @@
+/* General Styling for the Page */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Login Container Section */
+.login-container section {
+  max-width: 400px;
+  width: 100%; /* Ensures responsiveness */
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
+  color: #333;
+}
+
+/* Heading Styling */
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0984e3; /* Blue color for the heading */
+  text-transform: uppercase;
+  font-size: 28px; /* Larger and more prominent heading */
+  font-weight: bold;
+  border-bottom: 2px solid #0984e3;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Form Styling */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 8px;
+  color: #555; /* Softer color for labels */
+  font-weight: bold;
+}
+
+/* Input Field Styling */
+.login-container input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+
+  /* Additional styling for consistent appearance */
+  height: 40px; /* Set a fixed height for all inputs */
+}
+
+.login-container input:focus {
+  border-color: #0984e3; /* Highlighted border on focus */
+  outline: none;
+}
+
+/* Button Styling */
+.login-container button {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #4caf50, #2ecc71); /* Gradient button */
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-container button:hover {
+  background: linear-gradient(135deg, #3e8e41, #27ae60);
+  transform: translateY(-3px); /* Subtle lift on hover */
+}
+
+/* Paragraph Styling */
+.login-container p {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.login-container p a {
+  color: #0984e3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container p a:hover {
+  text-decoration: underline;
+}
